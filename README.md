@@ -6,6 +6,9 @@ This is an interactive start page for browsers, inspired from my terminal setup.
 
 </div>
 
+## Credits
+Full credit for this project goes to [Can Cellek](https://github.com/excalith), the original creator. My fork is a revised version tailored to my specific needs and preferences.
+
 ## Features
 
 -   Filter links by typing in the prompt
