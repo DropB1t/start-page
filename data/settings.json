@@ -1,37 +1,37 @@
 {
-	"username": "Excalith",
+	"username": "dropbit",
 	"theme": {
-		"name": "Default",
-		"backgroundColor": "#121317",
-		"windowColor": "#1e212b",
-		"textColor": "#e2e2e2",
-		"black": "#16161e",
-		"red": "#ec6183",
-		"green": "#2ed8a2",
-		"yellow": "#e8b195",
-		"blue": "#2bc3de",
-		"magenta": "#d1aff8",
-		"cyan": "#62e0e2",
-		"white": "#e2e2e2",
+		"name": "Catppuccin Mocha",
+		"backgroundColor": "#11111b",
+		"windowColor": "#1e1e2e",
+		"textColor": "#cdd6f4",
+		"black": "#45475A",
+		"red": "#f38ba8",
+		"green": "#a6e3a1",
+		"yellow": "#f9e2af",
+		"blue": "#89b4fa",
+		"magenta": "#f5c2e7",
+		"cyan": "#94e2d5",
+		"white": "#bac2de",
 		"gray": "#97989d"
 	},
 	"wallpaper": {
-		"url": "assets/default-wallpaper.svg",
+		"url": "assets/1.png",
 		"easing": "ease-in-out",
 		"fadeIn": true,
 		"blur": false
 	},
 	"terminal": {
-		"fixedHeight": true,
-		"windowGlow": true,
+		"fixedHeight": false,
+		"windowGlow": false,
 		"windowGlowColor": "#291f3325",
 		"textGlow": false,
-		"opacity": 0,
-		"blur": 16
+		"opacity": 0.98,
+		"blur": 8
 	},
 	"prompt": {
 		"ctrlC": true,
-		"placeholder": "command...",
+		"placeholder": "",
 		"placeholderColor": "gray",
 		"userColor": "green",
 		"atColor": "gray",
@@ -46,7 +46,7 @@
 		"timeFormat": "HH:mm",
 		"dateFormat": "DD/MM/YYYY",
 		"titleColor": "yellow",
-		"image": "assets/default-icon.svg",
+		"image": "assets/icon.png",
 		"data": [
 			"Time: {time}",
 			"Date: {date}",
@@ -80,11 +80,6 @@
 				"url": "https://duckduckgo.com/?q={}"
 			},
 			{
-				"alias": "b",
-				"name": "Brave Search",
-				"url": "https://search.brave.com/search?q={}"
-			},
-			{
 				"alias": "gh",
 				"name": "Github Search",
 				"url": "https://github.com/search?q={}"
@@ -114,24 +109,24 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "Portfolio",
-						"url": "https://cancellek.com",
-						"icon": "mdi:web"
+						"name": "Gemini",
+						"url": "https://gemini.google.com/app",
+						"icon": "simple-icons:googlegemini"
 					},
 					{
-						"name": "Keybase",
-						"url": "https://keybase.io/",
-						"icon": "fa-brands:keybase"
+						"name": "Gmail",
+						"url": "https://mail.google.com/mail/u/0/",
+						"icon": "simple-icons:gmail"
 					},
 					{
-						"name": "GPT",
-						"url": "https://chat.openai.com/",
-						"icon": "simple-icons:openai"
+						"name": "Keep",
+						"url": "https://keep.google.com/u/0/",
+						"icon": "simple-icons:googlekeep"
 					},
 					{
-						"name": "OCI",
-						"url": "https://www.oracle.com/cloud/",
-						"icon": "simple-icons:oracle"
+						"name": "Calendar",
+						"url": "https://calendar.proton.me/u/1/",
+						"icon": "simple-icons:protoncalendar"
 					}
 				]
 			},
@@ -143,22 +138,22 @@
 					{
 						"name": "GitHub",
 						"url": "https://github.com",
-						"icon": "mdi:github"
-					},
-					{
-						"name": "GitLab",
-						"url": "https://gitlab.com",
-						"icon": "ph:gitlab-logo-simple-fill"
-					},
-					{
-						"name": "Dev.to",
-						"url": "https://dev.to",
-						"icon": "material-symbols:logo-dev"
+						"icon": "simple-icons:github"
 					},
 					{
 						"name": "Stack Overflow",
 						"url": "https://stackoverflow.com/",
-						"icon": "mdi:stack-overflow"
+						"icon": "simple-icons:stackoverflow"
+					},
+					{
+						"name": "Daily.dev",
+						"url": "https://app.daily.dev/",
+						"icon": "simple-icons:dailydotdev"
+					},
+					{
+						"name": "ProtonMail",
+						"url": "https://mail.proton.me/u/1/inbox",
+						"icon": "simple-icons:protonmail"
 					}
 				]
 			},
@@ -168,105 +163,105 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "Twitter",
-						"url": "https://twitter.com",
-						"icon": "mdi:twitter"
-					},
-					{
-						"name": "Mastodon",
-						"url": "https://mastodon.social/",
-						"icon": "ri:mastodon-fill"
-					},
-					{
 						"name": "Reddit",
 						"url": "https://reddit.com",
-						"icon": "mdi:reddit"
+						"icon": "simple-icons:reddit"
 					},
 					{
-						"name": "Polywork",
-						"url": "https://polywork.com",
-						"icon": "simple-icons:polywork"
+						"name": "Twitter",
+						"url": "https://x.com/home",
+						"icon": "simple-icons:x"
+					},
+					{
+						"name": "Dev.to",
+						"url": "https://dev.to/",
+						"icon": "simple-icons:devdotto"
+					},
+					{
+						"name": "LinkedIn",
+						"url": "https://www.linkedin.com/feed/",
+						"icon": "simple-icons:linkedin"
 					}
 				]
 			},
 			{
-				"title": "Gaming",
+				"title": "Media",
 				"color": "red",
 				"align": "left",
 				"links": [
 					{
-						"name": "Polygon",
-						"url": "https://polygon.com",
-						"icon": "uil:polygon"
+						"name": "YouTube",
+						"url": "https://www.youtube.com/feed/subscriptions",
+						"icon": "simple-icons:youtube"
 					},
 					{
-						"name": "IGN",
-						"url": "https://ign.com",
-						"icon": "mdi:currency-sign"
+						"name": "Twitch",
+						"url": "https://www.twitch.tv/directory/following",
+						"icon": "simple-icons:twitch"
 					},
 					{
-						"name": "RPS",
-						"url": "https://rockpapershotgun.com/",
-						"icon": "ph:toilet-paper-bold"
+						"name": "It's Foss",
+						"url": "https://news.itsfoss.com/",
+						"icon": "simple-icons:linux"
 					},
 					{
-						"name": "80lv",
-						"url": "https://80.lv/",
-						"icon": "tabler:hand-rock"
+						"name": "AW",
+						"url": "https://www.animeworld.so/",
+						"icon": "mdi:television-classic"
 					}
 				]
 			},
 			{
-				"title": "Science",
+				"title": "References",
 				"color": "blue",
 				"align": "left",
 				"links": [
 					{
-						"name": "PopSci",
-						"url": "https://popsci.com/",
-						"icon": "material-symbols:science"
+						"name": "Cpp-Reference",
+						"url": "https://en.cppreference.com/w/cpp",
+						"icon": "simple-icons:cplusplus"
 					},
 					{
-						"name": "Space",
-						"url": "fa6-solid:user-astronaut",
-						"icon": "mdi:reddit"
+						"name": "GoDocs",
+						"url": "https://pkg.go.dev/std",
+						"icon": "simple-icons:go"
 					},
 					{
-						"name": "NASA",
-						"url": "https://blogs.nasa.gov/",
-						"icon": "simple-icons:nasa"
+						"name": "C-Reference",
+						"url": "https://en.cppreference.com/w/c",
+						"icon": "devicon-plain:c"
 					},
 					{
-						"name": "ESA",
-						"url": "https://blogs.esa.int/",
-						"icon": "mdi:black-mesa"
+						"name": "RustBook",
+						"url": "https://doc.rust-lang.org/book/",
+						"icon": "simple-icons:rust"
 					}
 				]
 			},
 			{
-				"title": "Tech",
+				"title": "Tools",
 				"color": "yellow",
 				"align": "left",
 				"links": [
 					{
-						"name": "TechCrunch",
-						"url": "https://techcrunch.com/",
-						"icon": "game-icons:techno-heart"
+						"name": "SpeedTest",
+						"url": "https://speed.cloudflare.com/",
+						"icon": "simple-icons:speedtest"
 					},
 					{
-						"name": "Verge",
+						"name": "Overleaf",
 						"url": "https://www.theverge.com/",
-						"icon": "arcticons:verge"
+						"icon": "simple-icons:overleaf"
 					},
 					{
-						"name": "It's Foss",
-						"url": "https://itsfoss.com/",
-						"icon": "ri:mastodon-fill"
+						"name": "DeepL",
+						"url": "https://www.deepl.com/en/translator",
+						"icon": "simple-icons:deepl"
 					},
 					{
-						"name": "9To5 Linux",
-						"url": "https://9to5linux.com/",
-						"icon": "uil:linux"
+						"name": "UrlScan",
+						"url": "https://urlscan.io/",
+						"icon": "mdi:barcode-scan"
 					}
 				]
 			}
