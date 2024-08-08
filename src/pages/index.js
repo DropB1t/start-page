@@ -93,11 +93,13 @@ export default function Home() {
 							alt="Wallpaper background"
 							className={`transition-opacity w-screen h-screen -z-50 object-cover
 							${settings.wallpaper.easing}
-							${settings.wallpaper.fadeIn && "duration-1000"}
+							${settings.wallpaper.fadeIn && "duration-300"}
 							${settings.wallpaper.blur && "blur-wallpaper"}
 							${isLoaded ? "opacity-100" : "opacity-0"}`}
 							src={wallpaper}
-							fill
+							width={1980}
+							height={1080}
+							loader={() => "assets/1.jpg"}
 							onLoad={() => {
 								setIsLoaded(true)
 							}}

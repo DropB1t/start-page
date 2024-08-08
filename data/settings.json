@@ -16,7 +16,7 @@
 		"gray": "#97989d"
 	},
 	"wallpaper": {
-		"url": "assets/1.png",
+		"url": "assets/1.jpg",
 		"easing": "ease-in-out",
 		"fadeIn": true,
 		"blur": false
