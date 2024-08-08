@@ -15,7 +15,7 @@ export default function Home() {
 
 	useEffect(() => {
 		const info = `\u00A9 2022-${new Date().getFullYear()} Can Cellek\n\nStart Page designed by Can Cellek\nCheck out the source code at\nhttps://github.com/excalith/excalith-start-page`
-		console.log(info)
+		//console.log(info)
 	}, [])
 
 	useEffect(() => {
@@ -90,7 +90,7 @@ export default function Home() {
 					<Meta />
 					{wallpaper && (
 						<Image
-							alt=""
+							alt="Wallpaper background"
 							className={`transition-opacity w-screen h-screen -z-50 object-cover
 							${settings.wallpaper.easing}
 							${settings.wallpaper.fadeIn && "duration-1000"}

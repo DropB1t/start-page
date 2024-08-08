@@ -4,14 +4,14 @@ import { useSettings } from "@/context/settings"
 import { fetchAsset } from "@/utils/fetchAsset"
 
 const Meta = () => {
-	const [title, setTitle] = useState("Start Page")
-	const [iconType, setIconType] = useState("na")
-	const [icon, setIcon] = useState(null)
+	const [title, _setTitle] = useState("Start Page")
+	const [_iconType, setIconType] = useState("na")
+	const [_icon, setIcon] = useState(null)
 	const { settings } = useSettings()
 
 	useEffect(() => {
 		// Set title
-		setTitle(settings.username + " Start Page")
+		//setTitle(settings.username + " Start Page")
 
 		// Return if there is no icon
 		if (!settings.fetch.image) return
@@ -46,7 +46,7 @@ const Meta = () => {
 			<title>{title}</title>
 			<meta name="description" content={`Start page of ${settings.username}`} />
 			<meta name="viewport" content="width=device-width, initial-scale=1" />
-			{icon && <link rel="icon" type={iconType} href={`${icon}`} />}
+			<link rel="icon" href="/favicon.ico" />
 			<meta name="robots" content="noindex, nofollow"></meta>
 		</Head>
 	)
