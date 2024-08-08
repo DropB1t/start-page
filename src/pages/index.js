@@ -97,9 +97,7 @@ export default function Home() {
 							${settings.wallpaper.blur && "blur-wallpaper"}
 							${isLoaded ? "opacity-100" : "opacity-0"}`}
 							src={wallpaper}
-							width={1980}
-							height={1080}
-							loader={() => "assets/1.jpg"}
+							fill
 							onLoad={() => {
 								setIsLoaded(true)
 							}}

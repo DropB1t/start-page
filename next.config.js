@@ -10,7 +10,7 @@ const nextConfig = {
 		version
 	},
 	images: {
-		unoptimized: true,
+		unoptimized: false,
 		remotePatterns: [
 			{
 				protocol: "https",
@@ -24,7 +24,7 @@ const nextConfig = {
 			headers: [
 				{
 					key: "Cache-Control",
-					value: "no-store"
+					value: "max-age=31536000, public, immutable"
 				}
 			]
 		}
