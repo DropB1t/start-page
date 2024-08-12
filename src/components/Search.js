@@ -28,6 +28,10 @@ const Search = ({ commandChange, selectionChange }) => {
 			if (e.key === "Enter") {
 				const search_function = isCtrlPressed ? DefaultSearch : RunCommand
 				if (selection && selection !== "") {
+					inputRef.current.value = ""
+					selectionChange("")
+					commandChange("")
+					setSuggestion("")
 					search_function(selection.toLowerCase(), settings)
 				} else {
 					search_function(command, settings)
@@ -120,14 +124,6 @@ const Search = ({ commandChange, selectionChange }) => {
 			setSuggestion(filteredItems[0])
 		}
 	}, [filteredItems])
-
-	useEffect(() => {
-		console.log("reset")
-		inputRef.current.value = ""
-		selectionChange("")
-		commandChange("")
-		setSuggestion("")
-	}, [])
 
 	return (
 		<div id="search" className="flex">
