@@ -24,7 +24,7 @@ const nextConfig = {
 			headers: [
 				{
 					key: "Cache-Control",
-					value: "max-age=31536000, public, immutable"
+					value: "public, max-age=2678400" // 31 days
 				}
 			]
 		}

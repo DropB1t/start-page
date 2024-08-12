@@ -10,7 +10,9 @@ export async function fetchAsset(assetPath) {
 		return assetPath
 	} else {
 		// If it's not a URL, make an API call to fetch the asset
-		const response = await fetch(`/api/getData?file=${assetPath}`)
+		const response = await fetch(`/api/getData?file=${assetPath}`, {
+			cache: "force-cache"
+		})
 		const data = await response
 			.clone()
 			.json()
