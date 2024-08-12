@@ -22,8 +22,7 @@ const Link = ({ linkData, filter, selection }) => {
 		} else {
 			setHidden(false)
 		}
-	}, [filter, lower_name, target, url]),
-		[filter]
+	}, [filter, lower_name, target, url])
 
 	useEffect(() => {
 		setSelected(lower_name === selection)
