@@ -90,14 +90,14 @@
 				"url": "https://stackoverflow.com/search?q={}"
 			},
 			{
-				"alias": "r",
-				"name": "Subreddit Search",
-				"url": "https://reddit.com/r/{}"
-			},
-			{
 				"alias": "w",
 				"name": "Wikipedia Search",
 				"url": "https://en.wikipedia.org/wiki/{}"
+			},
+			{
+				"alias": "r",
+				"name": "Subreddit Search",
+				"url": "https://reddit.com/r/{}"
 			}
 		]
 	},
@@ -109,14 +109,9 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "Gemini",
-						"url": "https://gemini.google.com/app",
-						"icon": "simple-icons:googlegemini"
-					},
-					{
-						"name": "Gmail",
-						"url": "https://mail.google.com/mail/u/0/",
-						"icon": "simple-icons:gmail"
+						"name": "Calendar",
+						"url": "https://calendar.proton.me/u/1/",
+						"icon": "simple-icons:protoncalendar"
 					},
 					{
 						"name": "Keep",
@@ -124,9 +119,14 @@
 						"icon": "simple-icons:googlekeep"
 					},
 					{
-						"name": "Calendar",
-						"url": "https://calendar.proton.me/u/1/",
-						"icon": "simple-icons:protoncalendar"
+						"name": "Gemini",
+						"url": "https://gemini.google.com/app",
+						"icon": "simple-icons:googlegemini"
+					},
+					{
+						"name": "Evernote",
+						"url": "https://www.evernote.com/client/web#/",
+						"icon": "simple-icons:evernote"
 					}
 				]
 			},
@@ -146,41 +146,41 @@
 						"icon": "simple-icons:stackoverflow"
 					},
 					{
-						"name": "Daily.dev",
-						"url": "https://app.daily.dev/",
-						"icon": "simple-icons:dailydotdev"
+						"name": "CppReference",
+						"url": "https://en.cppreference.com/w/",
+						"icon": "simple-icons:cplusplus"
 					},
 					{
-						"name": "ProtonMail",
-						"url": "https://mail.proton.me/u/1/inbox",
-						"icon": "simple-icons:protonmail"
+						"name": "HackerNews",
+						"url": "https://news.ycombinator.com/",
+						"icon": "simple-icons:ycombinator"
 					}
 				]
 			},
 			{
-				"title": "Social",
+				"title": "Mail",
 				"color": "cyan",
 				"align": "left",
 				"links": [
 					{
-						"name": "Reddit",
-						"url": "https://reddit.com",
-						"icon": "simple-icons:reddit"
+						"name": "Proton",
+						"url": "https://mail.proton.me/u/1/inbox",
+						"icon": "simple-icons:protonmail"
 					},
 					{
-						"name": "Twitter",
-						"url": "https://x.com/home",
-						"icon": "simple-icons:x"
+						"name": "Gmail",
+						"url": "https://mail.google.com/mail/u/0/",
+						"icon": "simple-icons:gmail"
 					},
 					{
-						"name": "Dev.to",
-						"url": "https://dev.to/",
-						"icon": "simple-icons:devdotto"
+						"name": "Outlook",
+						"url": "https://outlook.office.com/mail/",
+						"icon": "mdi:microsoft-outlook"
 					},
 					{
-						"name": "LinkedIn",
-						"url": "https://www.linkedin.com/feed/",
-						"icon": "simple-icons:linkedin"
+						"name": "Aruba",
+						"url": "https://webmail.pec.it/smart/#webmail/main/Inbox",
+						"icon": "mdi:email-seal"
 					}
 				]
 			},
@@ -195,14 +195,14 @@
 						"icon": "simple-icons:youtube"
 					},
 					{
+						"name": "YTMusic",
+						"url": "https://music.youtube.com/",
+						"icon": "simple-icons:youtubemusic"
+					},
+					{
 						"name": "Twitch",
 						"url": "https://www.twitch.tv/directory/following",
 						"icon": "simple-icons:twitch"
-					},
-					{
-						"name": "It's Foss",
-						"url": "https://news.itsfoss.com/",
-						"icon": "simple-icons:linux"
 					},
 					{
 						"name": "AW",
@@ -212,46 +212,14 @@
 				]
 			},
 			{
-				"title": "References",
+				"title": "Services",
 				"color": "blue",
-				"align": "left",
-				"links": [
-					{
-						"name": "Cpp-Reference",
-						"url": "https://en.cppreference.com/w/cpp",
-						"icon": "simple-icons:cplusplus"
-					},
-					{
-						"name": "GoDocs",
-						"url": "https://pkg.go.dev/std",
-						"icon": "simple-icons:go"
-					},
-					{
-						"name": "C-Reference",
-						"url": "https://en.cppreference.com/w/c",
-						"icon": "devicon-plain:c"
-					},
-					{
-						"name": "RustBook",
-						"url": "https://doc.rust-lang.org/book/",
-						"icon": "simple-icons:rust"
-					}
-				]
-			},
-			{
-				"title": "Tools",
-				"color": "yellow",
 				"align": "left",
 				"links": [
 					{
 						"name": "SpeedTest",
 						"url": "https://speed.cloudflare.com/",
 						"icon": "simple-icons:speedtest"
-					},
-					{
-						"name": "Overleaf",
-						"url": "https://www.theverge.com/",
-						"icon": "simple-icons:overleaf"
 					},
 					{
 						"name": "DeepL",
@@ -262,6 +230,38 @@
 						"name": "UrlScan",
 						"url": "https://urlscan.io/",
 						"icon": "mdi:barcode-scan"
+					},
+					{
+						"name": "Amazon",
+						"url": "https://www.amazon.it/",
+						"icon": "simple-icons:amazon"
+					}
+				]
+			},
+			{
+				"title": "Feed",
+				"color": "yellow",
+				"align": "left",
+				"links": [
+					{
+						"name": "Daily.dev",
+						"url": "https://app.daily.dev/",
+						"icon": "simple-icons:dailydotdev"
+					},
+					{
+						"name": "Reddit",
+						"url": "https://reddit.com",
+						"icon": "simple-icons:reddit"
+					},
+					{
+						"name": "ItsFoss",
+						"url": "https://news.itsfoss.com/",
+						"icon": "simple-icons:linux"
+					},
+					{
+						"name": "Twitter",
+						"url": "https://x.com/home",
+						"icon": "simple-icons:x"
 					}
 				]
 			}
