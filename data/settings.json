@@ -65,7 +65,7 @@
 		"hoverColor": "magenta"
 	},
 	"search": {
-		"default": "https://google.com/search?q=",
+		"default": "https://duckduckgo.com/?q=",
 		"target": "_self",
 		"shortcutRegex": "([A-Za-z0-9]+) (.*)",
 		"shortcuts": [
@@ -190,9 +190,9 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "YouTube",
-						"url": "https://www.youtube.com/feed/subscriptions",
-						"icon": "simple-icons:youtube"
+						"name": "PrimeVideo",
+						"url": "https://www.primevideo.com/storefront",
+						"icon": "simple-icons:primevideo"
 					},
 					{
 						"name": "YTMusic",
